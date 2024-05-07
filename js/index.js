@@ -96,4 +96,22 @@ var menuItem = createMenuItem(
   "$12",
   "Delicious pizza with assorted toppings."
 );
+
+var menuItem2 = createMenuItem(
+  "Sezar salat",
+  "$15",
+  "Delicious Sezar salad with assorted toppings . "
+);
+
+var productCard2 = createProductCard("Sezar salat ", "$15", "image/sezar.jpeg");
+
+var commentMessage = createCommentMessage(
+  "Turqay",
+  "Sezar saladi Jasmine Restoraninda daha cox dadlidir ! ",
+  "2024-02-04 10:00"
+);
+commentContainer.appendChild(commentMessage);
+
 menuContainer.appendChild(menuItem);
+menuContainer.appendChild(menuItem2);
+productContainer.appendChild(productCard2);
