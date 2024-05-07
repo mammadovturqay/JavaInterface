@@ -1,4 +1,3 @@
-// Function to create product card
 function createProductCard(productName, price, imageUrl) {
   var productCard = document.createElement("div");
   productCard.classList.add("product-card");
@@ -18,7 +17,6 @@ function createProductCard(productName, price, imageUrl) {
   return productCard;
 }
 
-// Function to create comment message
 function createCommentMessage(author, message, timestamp) {
   var commentMessage = document.createElement("div");
   commentMessage.classList.add("comment-message");
@@ -38,7 +36,6 @@ function createCommentMessage(author, message, timestamp) {
   return commentMessage;
 }
 
-// Function to create menu item
 function createMenuItem(name, price, description) {
   var menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
@@ -58,7 +55,6 @@ function createMenuItem(name, price, description) {
   return menuItem;
 }
 
-// Example usage:
 var productContainer = document.getElementById("productContainer");
 var commentContainer = document.getElementById("commentContainer");
 var menuContainer = document.getElementById("menuContainer");
